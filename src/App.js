@@ -1,11 +1,11 @@
-import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>Hello There!</h2>
+    <div>
+      <ExpenseItem />
     </div>
   );
-}
+};
 
 export default App;
